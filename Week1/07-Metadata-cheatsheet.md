@@ -53,6 +53,7 @@ For example, we can specify a header that instruct the browser to refesrh the pa
 
 ### META HTTP-EQUIV
 
+They are very useful, if we don't have access to the server configuration
 These tags are used to set headers properties that browser will use, usually these are set by the back end server not in the files
 ```html
 <meta http-equiv="content-type" content="text/html"> <!-- Specifies the format of the document returned by the server --> 
