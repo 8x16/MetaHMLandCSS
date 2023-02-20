@@ -6,9 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up | Little Lemon</title>
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        menu {
+            display: flex;
+        }
+
+        menu > li {
+            list-style: none;
+            padding-left: 5px;;
+        }
+
+        input {
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <header>
+        <image src="" alt="Logo"></image>
         <nav>
             <menu>
                 <li><a href="/index.html">Home</a></li>
@@ -17,11 +38,11 @@
             </menu>
         </nav>
     </header>
+    <hr>
     <main>
         <form action="#" method="post">
             <section>
                 <h3>Name</h3>
-                <hr>
                 <label>First Name:
                     <input type="text" name="fname" placeholder="Example: John" required>
                 </label>
@@ -40,8 +61,13 @@
             </section>
         </form>
     </main>
+    <hr>
     <footer>
-
+        <address>
+            <p>Made with Love</p>
+            <p>In India</p>
+            <p>Copyright - 2023 &copy;</p>
+        </address>
     </footer>
 </body>
 </html>
