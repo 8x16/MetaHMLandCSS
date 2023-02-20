@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinet Side Validation</title>
+</head>
+<body>
+    <p>Client Side Validation using HTML and CSS</p>
+    <hr>
+    <p>Preventing Empty/Invalid submissions to server</p>
+    <form action="/submit" method="post">
+        <label>
+            Email/Username:
+            <br>
+            <input type="email" name="email" placeholder="Enter your email or username" required>
+        </label>
+        <br>
+        <label>
+            Password:
+            <br>
+            <input type="password" name="password" placeholder="Enter your password" required>
+        </label>
+        <br>
+        <input type="submit" value="Log-In">
+    </form>
+    <hr>
+    <p>Length of input</p>
+    <form action="/register" method="post">
+        <!-- Minimum length and Max Length -->
+        <label>
+            Username:
+            <br>
+            <input type="text" minlength="3" maxlength="12" required/>
+        </label>
+        <br>
+        <label>
+            Password:
+            <br>
+            <input type="password" minlength="8" maxlength="30" required/>
+        </label>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
