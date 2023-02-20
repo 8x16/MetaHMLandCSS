@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/login" action="post">
+        <label> How did you hear about us?: 
+            <select name="promoters" size="3" multiple required>
+                <option value="
+                <output>4</output>Online Ads">Online</option>
+                <option value="Friend">Freinds</option>
+                <option value="Bonus">Bonus</option>
+                <option value="Didn't hear">Never Heard</option>
+                <option value="Returning User">Returning User</option>
+            </select>
+        </label>
+    </form>
+    <form action="/login" action="post">
+        <input type="range" name="people_attending" min="4" max="10" value="4" step="0.5" oninput="this.nextElementSibling.value = this.value">
+        <output>4</output>
+    </form>
+
+    <hr>
+    <form action="/login" action="post">
+        <label> How did you hear about us?: 
+            <select name="promoters" size="3" required>
+                <optgroup label="Online">
+                    <option value="Online Ads">Online</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Bonus">Bonus</option>
+                </optgroup>
+                <optgroup label="Offline">
+                    <option value="Didn't hear">Never Heard</option>
+                    <option value="Returning User">Already used it</option>
+                </optgroup>
+            </select>
+        </label>
+    </form>
+</body>
+</html>
